@@ -1,0 +1,328 @@
+#logo{
+    margin-left: 40rem;
+    height: 5rem;
+}
+
+#para9{
+    margin-left: 38rem;
+    font-size: 12px;
+}
+
+.nav{
+    width: 100%;
+    height: 4rem;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.nav_links{
+    display: inline;
+    margin: 2rem;
+    
+}
+
+.nav_links a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    justify-content: space-between;
+
+}
+
+.flex{
+    width: 50%;
+    height: 20rem;
+    margin-top: 2rem;
+    /* background-color: black; */
+}
+
+#para9{
+    color: blue;
+}
+
+#para1{
+    color: red;
+}
+
+.flex_box{
+    width: 20rem;
+    height: 20rem;
+    /* background-color: black; */
+    display: right;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start; /* Align items to the start (top) of the container */
+    background-color: #f0f0f0; /* Set background color */
+    margin-top: 20px;
+  }
+  
+  .image {
+    flex: 0 0 auto; /* Don't grow or shrink, keep at its original size */
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .content {
+    flex: 1; /* Take up remaining space */
+    position: relative; /* Set position to relative for pseudo-element positioning */
+  }
+  
+  .content p {
+    margin-bottom: 10px; /* Add some space below the text */
+  }
+  
+  .content::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px; /* Adjust width of the line */
+    height: 2px; /* Height of the line */
+    background-color: red; /* Color of the line */
+  }
+  
+
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-item {
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    width: 100%;
+    height: 600px;
+    margin-top: 4rem;
+  }
+  
+  .flex-item-small {
+    flex: 1; /* Make all flex items equal width */
+  }
+  
+  .flex-item-large {
+    flex: 2; /* Make this flex item twice as wide as the others */
+  }
+  
+
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-item {
+    padding: 20px;
+  }
+  
+  .flex-item:not(:last-child) {
+    border-right: 1px solid #ddd; /* Add border to all flex items except the last one */
+  }
+  
+  .KON{
+    width:13rem;
+    height: 15rem;
+    background-color: #ddd;
+    position: absolute;
+    
+    
+  }
+
+
+  .container1 {
+    display: flex;
+    margin-top: 4rem;
+  }
+  
+  .image {
+    flex: 0 0 auto; /* Don't grow, don't shrink, use auto width */
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .content1 {
+    flex: 1; /* Grow to fill remaining space */
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 3rem; */
+  }
+  
+  .box {
+    padding: 8px; 
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  /* Example box-specific styles */
+  .box1 {
+    background-color: rgb(240, 233, 233);
+    height: 3rem;
+    margin-top: 4rem;
+    border-radius: 14px;
+    
+  }
+  
+  .box2 {
+    background-color: rgb(240, 233, 233);
+    height: 3rem;
+    margin-top: 4rem;
+    border-radius: 14px;
+    
+  }
+  
+  .box3 {
+    background-color: rgb(240, 233, 233);
+    height: 3rem;
+    margin-top: 4rem;
+    border-radius: 14px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .search-container {
+    display: flex;
+    float: right;
+    margin-right: 10rem;
+    margin-top: 1rem;
+
+  }
+  
+  .search-container input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #090808;
+    border-radius: 5px 0 0 5px; /* Rounded corners on the left side */
+    
+  }
+  
+  .search-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    /* color: #fff; */
+    border: none;
+    border-radius: 0 5px 5px 0; /* Rounded corners on the right side */
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #0056b3;
+  }
+
+  .underline {
+    position: relative;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color:red ; /* Change this to whatever color you prefer */
+}
+
+
+  
+  
+
+
+.container {
+  display: flex;
+}
+
+.image {
+  flex: 0 0 auto; /* Don't grow, don't shrink, use auto width */
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.text {
+  flex: 1; /* Grow to fill remaining space */
+}
+
+
+.bottom_logo{
+
+  position: absolute;
+  /* top: 0; */
+  bottom: 20rem;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  padding: 10px; 
+ 
+ 
+}
+
+
+.footer {
+  width: 100%;
+  height: 22rem;
+  background-color:rgb(2, 2, 23); 
+  color: #fff;
+  top: 0rem; 
+  margin-top: 3rem;
+  position: relative;
+
+ 
+  
+}
+
+.footer .btn{ 
+	overflow: hidden;
+	height: 5rem;
+  margin-left: 35rem;
+
+}
+.footer .btn{
+	width: 8rem;
+	height: 3rem;
+	margin-top: 1rem;
+  border-color: red;
+  border-radius: 5%;
+  color: red;
+  font-size: 1rem;
+  background-color: #fff;
+  
+}
+
+
+.contact {
+  padding: 20px;
+}
+
+ul.contact li {
+  color: white;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  color: #fff;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
